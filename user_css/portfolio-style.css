@@ -1,0 +1,196 @@
+@charset "UTF-8";
+.left {
+	float: left;
+}
+#truediv {
+	display: block;
+	overflow: hidden;
+	padding: 15px;
+}
+.photo {
+	margin: 10px;
+}
+.caption_after, .caption_before, .fotocaption {
+	display: block;
+	position: relative;
+	width: 100%;
+	top: -39px;
+	text-align: center;
+	padding: 10px 0px;
+	font-size: 1.375em;
+	color: #fff;
+}
+.caption_before {
+	background: rgba(0, 0, 0, 0.7);
+}
+.caption_after {
+	background: rgba(0, 130, 190, 0.7);
+}
+.fotocaption {
+	top: 0px;
+	background: #019A98;
+	font-size: 1.125em;
+}
+.archive-thumb {
+	display: block;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+.before, .after {
+	display: inline-block;
+	overflow: hidden;
+	height: 300px;
+	padding: 0;
+	margin: -2px;
+}
+.fotosessii-block .before {
+	height: auto;
+}
+.archive-thumb img {
+	height: 300px;
+	width: 250px;
+	vertical-align: top;
+}
+.fotosessii-archive-thumb img {
+	height: 250px;
+	width: 320px;
+	vertical-align: top;
+}
+.fotosessii-archive-thumb {
+	overflow: hidden;
+}
+#portfolio-content .portfolio {
+	margin: -7px auto 0px;
+}
+#portfolio-content .portfolio-block {
+	display: inline-block;
+	overflow: hidden;
+}
+#portfolio-content .portfolio-title {
+	text-align: center;
+	display: inline-block;
+	padding-top: 5px;
+	background: #E75073;
+	margin: 0px;
+	width: 100%;
+	height: 40px;
+}
+#portfolio-content .portfolio .portfolio-title h2.portfolios {
+	color: #ffffff;
+}
+#portfolio-content {
+	display: block;
+	text-align: center;
+	line-height: 1.2 !important;
+}
+#fotosessii-content {
+    line-height: 1.2 !important;
+    overflow: hidden;
+    display: block;
+    text-align: center;
+    margin: 0px auto;
+    width: 87%;
+    max-width: 948px;   
+}
+#fotosessii-content .fotosessii, #fotosessii-content .shopping, #fotosessii-content .master_class {
+	display: inline-block;
+	float: left;
+	width: 320px;
+	margin: -6px -2px 0 -2px;
+}
+@media only screen
+and (max-width : 1040px) {
+	#fotosessii-content .fotosessii, #fotosessii-content .shopping, #fotosessii-content .master_class {
+	float: none;
+	}
+}
+@media only screen
+and (max-width : 400px) {
+	#fotosessii-content .fotosessii, #fotosessii-content .shopping, #fotosessii-content .master_class {
+		float: none;
+		overflow: visible;
+	}
+}
+#fotosessii-content .before {
+	margin: 0;
+}
+.reset {
+	clear: both;
+	float: none;
+}
+/*стиль постраничной навигации портфолио*/
+.navigation .pages,
+.navigation .page-numbers {
+	border: #3E3428 1px solid;
+	border-radius: 10px;
+	display: inline-block;
+	padding: 5px 10px;
+	margin: 10px auto;
+}
+.navigation .current {
+	background: #CCC59B;
+}
+.portfolioform {
+	display: block;
+	max-width: 900px;
+	background: #019A98;
+	margin: 0px auto 10px;
+}
+.formslogon, .slogon, .slogonportfolio, .shopping_slogon {
+	display: block;
+	background: #ffffff;
+}
+.formslogon {
+	max-width: 920px;
+}
+.slogon, .shopping_slogon {
+display: block;
+overflow: hidden;
+text-align: center;
+margin: 0px auto 6px;
+}
+.slogonportfolio {
+	max-width: 996px;
+	padding: 5px 0px;
+}
+.formslogon h3, .slogon h3, .slogonportfolio h3, .shopping_slogon h3 {
+	text-align: center;
+	font-size: 18px;
+	padding: 10px 0px 15px 0px
+}
+.zagolovok {
+	text-align: center;
+	padding: 20px;
+}
+.post-type-archive-fotosessii #main {
+	display: block;
+	width: 100%!important;
+	text-align: center;
+	margin: 0 auto;
+}
+.post-type-archive #main {
+	max-width:1100px!important;
+	width:auto!important;
+}
+.post-type-archive .your-message {
+  z-index: 9;
+}
+.after {
+	display:inline-block;
+	position:relative;
+}
+.after:after {
+	  display: inline-block;
+  content: 'После';
+  color: #FFFFFF;
+  width: 100%;
+  position: absolute;
+  z-index: 9;
+  top: 100%;
+  padding: 10px 0px;
+	font-size: 1.375em;
+	left: 0px;
+	background: rgba(0, 130, 190, 0.7);
+	margin: -39px auto 0px;
+}
