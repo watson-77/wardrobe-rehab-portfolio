@@ -2,9 +2,9 @@
 Contributors:
 Donate link: http://paypal.me/kostikdev
 Tags: portfolio, photoshoot, master-class, shopping support
-Requires at least: 2.0.2
-Tested up to: 2.1
-Stable tag: 4.3
+Requires at least: 3.9.1
+Tested up to: 4.3
+Stable tag: 4.4
 
 Plugin to create projects of transformation, photo shoots, shopping advice, workshops and page output archives (data projects) in a design.
 
